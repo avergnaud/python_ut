@@ -1,7 +1,5 @@
 class Calcul:
-    def generateURL(self, ticker, days, period):
-        return "https://www.google.com/finance/getprices?i=" + str(period) + "&p=" + str(days) + "d&f=d,o,h,l,c,v&df=cpct&q=" + ticker
-
+    
     def traduitSecondes(self, nombre_total):
 
         # Ecrivez un programme qui convertit un nombre entier de secondes fourni
